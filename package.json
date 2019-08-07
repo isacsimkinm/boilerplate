@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc"
+  },
+  "author": "Isac Simkin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

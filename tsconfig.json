@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "allowUnreachableCode": false,
+      "alwaysStrict": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "strict": true,
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "ES2017",
+      "rootDir": "src",
+      "outDir": "dist"
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
